@@ -36,17 +36,3 @@ class LinkedList:
 
 
 
-if __name__ == '__main__':
-    n1 = Node(1)
-    n2 = Node(2)
-    n3 = Node(3)
-    n4 = Node(4)
-    l1 = LinkedList()
-    l1.add_node(n1)
-    l1.add_node(n2)
-    l1.add_node(n3)
-    l1.add_node(n4)
-    # l1.print_list()
-    l1.remove_head()
-    l1.remove_head()
-    l1.print_list()
